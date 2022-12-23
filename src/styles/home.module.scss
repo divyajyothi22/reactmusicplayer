@@ -1,0 +1,47 @@
+.home {
+    background: linear-gradient(violet,indigo,blue,green,yellow,red);
+    // background-color: aqua;
+    // background-image: url(../images/img3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    padding: 0 1rem;
+
+    .header {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        height: 10vh;
+        justify-content: space-between;
+    }
+
+    .outline {
+        display: flex;
+        gap: 2rem;
+    }
+
+    button {
+        border: none;
+        border-radius: 2rem;
+        padding: 0.7rem;
+    }
+
+    .list {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        column-gap: 2rem;
+        margin-top: 1rem;
+
+        img {
+            width: 10rem;
+        }
+    }
+}
